@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Alarm-Tech.cz | Zabezpečovací a kamerové systémy</title>
+
+<meta name="description" content="Profesionální instalace zabezpečovacích systémů, kamerových systémů, požární ochrany a chytrých technologií pro domy i firmy.">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: radial-gradient(circle at top, #0b1220, #05070f);
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+/* HEADER */
+header {
+    padding: 25px;
+    text-align: center;
+    background: rgba(17, 24, 39, 0.6);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+header h1 {
+    font-size: 30px;
+    color: #60a5fa;
+    letter-spacing: 1px;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px;
+    background: rgba(31, 41, 55, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+nav a {
+    color: #d1d5db;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #60a5fa;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 90px 20px;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a, #0b1220);
+}
+
+.hero h2 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: auto;
+    color: #cbd5e1;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(37,99,235,0.3);
+}
+
+/* SERVICES */
+.services {
+    padding: 60px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    padding: 25px;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(96,165,250,0.4);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    color: #60a5fa;
+}
+
+/* CONTACT */
+#kontakt {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(17, 24, 39, 0.4);
+}
+
+#kontakt h2 {
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    color: #9ca3af;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Alarm-Tech.cz</h1>
+    <p>Zabezpečovací, kamerové a technické systémy</p>
+</header>
+
+<nav>
+    <a href="#">Domů</a>
+    <a href="#sluzby">Služby</a>
+    <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section class="hero">
+    <h2>Bezpečí pro váš domov i firmu</h2>
+    <p>Moderní zabezpečovací systémy, kamerové technologie a chytrá řešení na míru.</p>
+    <a class="btn" href="#kontakt">Nezávazná poptávka</a>
+</section>
+
+<section id="sluzby" class="services">
+
+    <div class="card">
+        <h3>🔒 Zabezpečovací systémy</h3>
+        <p>Alarmy s mobilním ovládáním a okamžitými notifikacemi.</p>
+    </div>
+
+    <div class="card">
+        <h3>📷 Kamerové systémy</h3>
+        <p>IP kamery s online přístupem a vysokým rozlišením.</p>
+    </div>
+
+    <div class="card">
+        <h3>🔥 Požární ochrana</h3>
+        <p>Detektory kouře a tepla s okamžitým upozorněním.</p>
+    </div>
+
+    <div class="card">
+        <h3>⚙️ Chytré instalace</h3>
+        <p>Automatizace domácnosti a slaboproudé systémy.</p>
+    </div>
+
+</section>
+
+<section id="kontakt">
+    <h2>Kontakt</h2>
+    <p>Email: info@alarm-tech.cz</p>
+    <p>Telefon: +420 604 594 254</p>
+</section>
+
+<footer>
+    © 2026 Alarm-Tech.cz
+</footer>
+
+</body>
+</html>
